@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Privacy Policy · Plugd</title>
+  <meta name="description" content="How the Plugd business card scanner handles your data: stored on your device, no account, no tracking." />
+  <meta name="theme-color" content="#0b0b0d" />
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Geist:wght@400..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Plugd home"><img src="img/icon.svg" alt="" />plug<b>d</b></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <a class="btn btn-volt" href="./#download">Get the app</a>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective 8 October 2026 · Applies to the Plugd app for iOS and Android and to this website</p>
+
+      <div class="summary">
+        <h2>The short version</h2>
+        <ul>
+          <li>Plugd has <strong>no account system and no Plugd servers</strong> that receive your cards, photos, notes or contacts.</li>
+          <li>Everything you scan is <strong>stored on your device</strong>. Deleting the app deletes it.</li>
+          <li>To read a card, the app sends its photos and your voice note <strong>directly to the AI provider you choose</strong> (Google, OpenAI, Anthropic or OpenRouter), using your own API key. We never see that traffic.</li>
+          <li>The app contains <strong>no ads, no analytics and no tracking</strong>. We do not sell or share personal data.</li>
+        </ul>
+      </div>
+
+      <ul class="toc">
+        <li><a href="#who">Who we are</a></li>
+        <li><a href="#data">Data the app handles</a></li>
+        <li><a href="#ai">AI providers</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#sharing">Sharing</a></li>
+        <li><a href="#others">People on the cards</a></li>
+        <li><a href="#retention">Retention &amp; deletion</a></li>
+        <li><a href="#rights">Your rights</a></li>
+        <li><a href="#website">This website</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <h2 id="who">1. Who we are</h2>
+      <p>Plugd is provided by RepliantAI ("we", "us"). This policy explains what happens to information when you use the Plugd mobile app (the "App") and the website at plugd.repliantai.com (the "Site"). If you have a question, write to <a href="mailto:vidya@repliantai.com">vidya@repliantai.com</a>.</p>
+
+      <h2 id="data">2. Data the App handles</h2>
+      <p>The App works on your device. The table below lists what it handles and where that data is kept.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>Why</th><th>Where it is kept</th></tr></thead>
+          <tbody>
+            <tr><td>Photos of business cards (front and back)</td><td>To read contact details and show you the card</td><td>On your device; sent to your chosen AI provider to be read</td></tr>
+            <tr><td>Voice notes you record</td><td>To save what you talked about with each contact</td><td>On your device; sent to your chosen AI provider to be transcribed</td></tr>
+            <tr><td>Contact details read from cards, QR codes or NFC tags (name, job title, company, email, phone, website, LinkedIn, address)</td><td>To build your lead list</td><td>On your device only</td></tr>
+            <tr><td>Your own organisation: event names, tags, Hot/Warm/Cold labels, follow-up flags, edits</td><td>To organise your leads</td><td>On your device only</td></tr>
+            <tr><td>Settings, including the AI provider, model and API keys you enter, and your preferred camera</td><td>So the App remembers your choices</td><td>On your device only</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>What we do not collect.</strong> We do not receive any of the data above. The App has no user accounts, no advertising, no analytics or crash-reporting SDKs, and does not collect your location, device identifiers, contacts list or usage statistics.</p>
+
+      <h2 id="ai">3. AI providers that read your cards</h2>
+      <p>Plugd uses a third-party AI model to read the text on card photos and to transcribe voice notes. You choose the provider in Settings and add an API key from your own account with that provider. When a card is read, the App sends the card photos (and the voice note, if you recorded one) <strong>directly from your device to that provider</strong> over an encrypted connection. The request does not pass through any Plugd server.</p>
+      <p>The provider processes that data under its own terms and privacy policy, which you accepted when you created your key. Depending on your provider account settings, a provider may retain requests for a limited period, for example for abuse monitoring. Please review the policy of the provider you use:</p>
+      <ul>
+        <li>Google Gemini API: <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a> and the Gemini API Additional Terms</li>
+        <li>OpenAI: <a href="https://openai.com/policies/privacy-policy" rel="noopener">openai.com/policies/privacy-policy</a></li>
+        <li>Anthropic: <a href="https://www.anthropic.com/legal/privacy" rel="noopener">anthropic.com/legal/privacy</a></li>
+        <li>OpenRouter: <a href="https://openrouter.ai/privacy" rel="noopener">openrouter.ai/privacy</a></li>
+      </ul>
+      <p>If you do not add a key, the App still saves card photos and notes on your device, but cannot read them.</p>
+
+      <h2 id="permissions">4. Device permissions</h2>
+      <ul>
+        <li><strong>Camera</strong>: to photograph business cards and scan QR codes. Required for scanning.</li>
+        <li><strong>Microphone</strong>: to record an optional voice note with a card. You can decline and still scan.</li>
+        <li><strong>NFC</strong>: to read NFC business cards and contact tags when you choose NFC mode.</li>
+      </ul>
+      <p>You can turn these off at any time in your phone's settings.</p>
+
+      <h2 id="sharing">5. When data leaves your device</h2>
+      <p>Apart from the AI request described in section 3, data leaves your device only when you act:</p>
+      <ul>
+        <li><strong>Export</strong>: when you export to Excel, CSV or contacts (.vcf), the file is handed to your phone's share sheet and goes wherever you send it.</li>
+        <li><strong>Save contact, Call, Email, WhatsApp, LinkedIn, Website</strong>: these open your phone's own apps with the contact's details filled in.</li>
+      </ul>
+      <p>We do not sell, rent or share personal data with anyone, and we do not use it for advertising.</p>
+
+      <h2 id="others">6. People whose cards you scan</h2>
+      <p>Business cards contain personal data about other people. When you scan a card, you decide what to collect and how to use it, and you are responsible for doing so lawfully, for example by following up only in ways the person would reasonably expect and by respecting anti-spam and marketing laws where you are. Because this data never reaches us, we cannot access, correct or delete it; a person who wants their details removed should ask the user who scanned their card.</p>
+
+      <h2 id="retention">7. Retention and deletion</h2>
+      <ul>
+        <li>Data stays on your device until you delete it. Remove a single contact with <em>Remove</em> on that contact.</li>
+        <li>Uninstalling the App deletes all of its data from your device, including photos, notes and API keys. Export anything you want to keep first.</li>
+        <li>Your phone's own backup (iCloud or Google) may include app data if you have device backups turned on; that is managed by Apple or Google under your backup settings.</li>
+        <li>We hold no copy, so there is nothing for us to delete on our side. Step-by-step instructions are on our <a href="support.html#delete">data deletion page</a>.</li>
+      </ul>
+
+      <h2 id="security">8. Security</h2>
+      <p>Data is stored in the App's private storage, protected by your device's security and encryption. Requests to AI providers use HTTPS. Your API keys are stored only on your device and are sent only to the provider they belong to. Keep your phone locked with a passcode, since anyone with access to your unlocked phone can open the App.</p>
+
+      <h2 id="children">9. Children</h2>
+      <p>Plugd is a business tool and is not directed at children. It is not intended for anyone under 16 (or the minimum age of digital consent where you live), and we do not knowingly process children's data.</p>
+
+      <h2 id="rights">10. Your rights</h2>
+      <p>Depending on where you live, laws such as the EU and UK GDPR, India's Digital Personal Data Protection Act 2023, and the California Consumer Privacy Act give you rights to access, correct, delete or port your personal data, to object to or restrict processing, and to complain to a data protection authority. Because the App keeps your data on your device, you can exercise most of these rights directly: view and edit everything in the App, export it, or delete it. For data processed by your AI provider, contact that provider. For anything else, email <a href="mailto:vidya@repliantai.com">vidya@repliantai.com</a>; we will reply within 30 days.</p>
+      <p>We do not sell or "share" personal information as those terms are defined under California law, and we do not use automated decision-making that has legal or similarly significant effects on you.</p>
+
+      <h2 id="website">11. This website</h2>
+      <p>The Site has no sign-up, no analytics, no advertising and sets no cookies. Like any website, the server that hosts it may briefly log technical data such as IP address and browser type to deliver pages and keep them secure. The Site loads fonts from Google Fonts, which means your browser connects to Google's servers and Google receives your IP address; see <a href="https://developers.google.com/fonts/faq/privacy" rel="noopener">Google Fonts privacy</a>. Links to the App Store and Google Play take you to sites run by Apple and Google under their own policies.</p>
+
+      <h2 id="changes">12. Changes to this policy</h2>
+      <p>If we change how Plugd handles data, we will update this page and the effective date above. If a change is significant, such as introducing accounts, cloud sync or analytics, we will tell you in the App before it applies.</p>
+
+      <h2 id="contact">13. Contact</h2>
+      <p>RepliantAI<br />Email: <a href="mailto:vidya@repliantai.com">vidya@repliantai.com</a></p>
+          </div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Plugd home"><img src="img/icon.svg" alt="" />plug<b>d</b></a>
+      <nav aria-label="Legal and support">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html#delete">Delete your data</a>
+      </nav>
+      <span>© 2026 RepliantAI</span>
+    </div>
+  </footer>
+</body>
+</html>

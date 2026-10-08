@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Support · Plugd</title>
+  <meta name="description" content="Get help with Plugd: setting up card reading, scanning tips, exporting, and deleting your data." />
+  <meta name="theme-color" content="#0b0b0d" />
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Geist:wght@400..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Plugd home"><img src="img/icon.svg" alt="" />plug<b>d</b></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <a class="btn btn-volt" href="./#download">Get the app</a>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="wrap">
+      <h1>Support</h1>
+      <p class="meta">Real people read every message. We usually reply within two working days.</p>
+
+      <div class="help-grid">
+        <a href="#setup"><strong>Set up card reading</strong><span>Add an AI key in two minutes</span></a>
+        <a href="#scanning"><strong>Scanning tips</strong><span>Cards, QR codes and NFC</span></a>
+        <a href="#export"><strong>Export your leads</strong><span>Excel, CSV and contacts</span></a>
+        <a href="#delete"><strong>Delete your data</strong><span>One contact, or everything</span></a>
+      </div>
+
+      <h2 id="contact">Contact us</h2>
+      <p>Email <a href="mailto:vidya@repliantai.com">vidya@repliantai.com</a>. To help us fix things fast, include your phone model, iOS or Android version, the Plugd version (shown in your phone's app settings) and what you expected to happen. Please don't send photos of other people's business cards.</p>
+
+      <h2 id="setup">Set up card reading</h2>
+      <p>Plugd reads cards with an AI model from a provider you choose, using your own API key. You only do this once.</p>
+      <ol>
+        <li>Open Plugd and tap the gear on Home to open <strong>Settings</strong>.</li>
+        <li>Under <strong>Reader</strong>, pick Gemini, OpenAI, Claude or OpenRouter.</li>
+        <li>Create an API key in that provider's developer console (for Gemini, Google AI Studio) and paste it into the key field.</li>
+        <li>Tap <strong>Test key</strong>. When it says the key works, you're ready to scan.</li>
+      </ol>
+      <p>Your key is stored only on your phone and sent only to that provider. Any usage charges are billed by the provider to your account with them.</p>
+
+      <h2 id="scanning">Scanning tips</h2>
+      <h3>Paper cards</h3>
+      <ul>
+        <li>Tap the volt <strong>Scan</strong> button, then hold the card inside the frame. Plugd captures it once it's steady, then asks for the back.</li>
+        <li>Plain, darker backgrounds and even light work best. Avoid glare from overhead lights.</li>
+        <li>Nothing on the back? Tap <strong>No back</strong> to save the card straight away.</li>
+      </ul>
+      <h3>QR codes and NFC</h3>
+      <ul>
+        <li>Switch to <strong>QR</strong> to scan a code on a badge or a digital business card.</li>
+        <li>Switch to <strong>NFC</strong> and hold an NFC card or tag to the back of your phone, near the camera on most iPhones and the middle on most Android phones. NFC needs a phone that supports it, with NFC turned on.</li>
+      </ul>
+      <h3>Voice notes</h3>
+      <p>Speak while a card saves to add a note, for example "Wants pricing for 50 seats". If the microphone is off, allow it for Plugd in your phone's settings.</p>
+      <h3>A card wasn't read, or was read wrong</h3>
+      <ul>
+        <li>Cards that couldn't be read show up under <strong>to fix</strong> on Home. Tap <strong>Retry</strong> once you have signal, or open the contact and choose <strong>Read again</strong>.</li>
+        <li>You can edit any field yourself. Photos and notes are always kept.</li>
+        <li>"Add an API key" means no key is set for the chosen reader; see <a href="#setup">Set up card reading</a>.</li>
+      </ul>
+
+      <h2 id="export">Export your leads</h2>
+      <ol>
+        <li>Open <strong>Leads</strong> from the bar at the bottom.</li>
+        <li>Optionally search or filter (for example <strong>Hot</strong>). Export uses the filtered list.</li>
+        <li>Tap <strong>Export</strong> and choose Excel (.xlsx), CSV for a CRM, or Contacts (.vcf), then send or save the file.</li>
+      </ol>
+      <p>To save one person to your phone's address book, open them and tap <strong>Save contact</strong>.</p>
+
+      <h2 id="delete">Delete your data</h2>
+      <p>Plugd has no accounts and no cloud copy of your data. Everything is stored on your phone, so you are always in control of deleting it.</p>
+      <h3>Delete one contact</h3>
+      <ol>
+        <li>Open <strong>Leads</strong> and tap the contact.</li>
+        <li>Tap <strong>Remove</strong> and confirm. The contact, its card photos and its voice note are deleted from your phone.</li>
+      </ol>
+      <h3>Delete everything</h3>
+      <ol>
+        <li>Export anything you want to keep.</li>
+        <li>Uninstall Plugd. On iPhone, press and hold the icon and choose <strong>Remove App → Delete App</strong>. On Android, press and hold the icon and choose <strong>Uninstall</strong>.</li>
+        <li>This deletes all cards, photos, notes, events, settings and API keys stored by Plugd.</li>
+      </ol>
+      <p>If your phone backs up app data to iCloud or Google, older copies may stay in those backups until they expire or you delete them in your backup settings. Data already sent to your AI provider is handled under that provider's retention policy; see our <a href="privacy.html#ai">Privacy Policy</a>.</p>
+      <p>We hold no personal data about you, so there is nothing for us to delete. If you have a question about your data, email <a href="mailto:vidya@repliantai.com">vidya@repliantai.com</a>.</p>
+      <h3>If your details were scanned by someone else</h3>
+      <p>Plugd doesn't store scanned contacts on our servers, so we can't see or remove them. Please ask the person who scanned your card to delete your details.</p>
+
+      <h2 id="requirements">Requirements</h2>
+      <ul>
+        <li>iOS 15 or later, or Android 7.0 or later, with a camera.</li>
+        <li>An internet connection to read cards. Scanning and saving work offline; cards are read once you're back online.</li>
+        <li>An API key from Google Gemini, OpenAI, Anthropic or OpenRouter.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Plugd home"><img src="img/icon.svg" alt="" />plug<b>d</b></a>
+      <nav aria-label="Legal and support">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html#delete">Delete your data</a>
+      </nav>
+      <span>© 2026 RepliantAI</span>
+    </div>
+  </footer>
+</body>
+</html>
