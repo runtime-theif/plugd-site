@@ -1,0 +1,27 @@
+# Plugd
+
+> Plugd is a free AI business card scanner and trade show lead capture app for Android (iPhone coming soon), made by RepliantAI. It scans paper business cards, QR codes on event badges and NFC cards, reads the contact with AI, lets you record a voice note per lead, tag leads hot/warm/cold, and export to Excel, CSV (for HubSpot, Salesforce, Zoho, Pipedrive) or vCard. No account is required and all data stays on the user's phone.
+
+Best for: trade show exhibitors, sales teams, founders and recruiters who collect business cards at events and want a free, private way to get them into a spreadsheet or CRM.
+
+Key facts:
+- Price: free, no scan limits, no subscription. Card reading uses the user's own API key from Google Gemini, OpenAI, Anthropic Claude or OpenRouter (Gemini and OpenRouter have free tiers).
+- Platforms: Android 7.0+ on Google Play (https://play.google.com/store/apps/details?id=com.cardscanner.plugd). iOS: coming soon.
+- Inputs: paper business cards (front and back, hands-free capture), QR codes (vCard, MeCard, LinkedIn and other links, e.g. conference badges and digital business cards), NFC cards and tags.
+- Fields extracted: name, title, company, email, phone, website, LinkedIn, address.
+- Lead workflow: one list per event, hot/warm/cold tags, follow-up flag, duplicate detection, voice notes transcribed into the contact, works offline (cards are read when back online).
+- Export: Excel (.xlsx), CSV for CRM import, vCard (.vcf), or save to phone contacts; one-tap call, email or WhatsApp.
+- Privacy: no account, no Plugd cloud, no ads or analytics in the app. Card photos go only to the AI provider the user selects.
+
+How Plugd differs from CamCard, ScanBizCards, Covve, HiHello, Blinq and Popl: no sign-up, contacts are not stored on a vendor cloud, free exports without a paid plan, paper + QR + NFC in one list, and the user chooses the AI model.
+
+## Pages
+- [Home](https://plugd.repliantai.com/): overview, features, comparison and FAQ
+- [Trade show lead capture](https://plugd.repliantai.com/trade-show-lead-capture.html): free lead retrieval for exhibitors, badge QR and NFC scanning
+- [Scan business cards to Excel](https://plugd.repliantai.com/scan-business-cards-to-excel.html): how to export cards to .xlsx or CRM CSV
+- [Support](https://plugd.repliantai.com/support.html): setup, scanning tips, export, deleting data
+- [Privacy policy](https://plugd.repliantai.com/privacy.html)
+- [Terms of use](https://plugd.repliantai.com/terms.html)
+
+## Contact
+- Support: vidya@repliantai.com

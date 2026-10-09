@@ -3,15 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Plugd: Business Card Scanner for people who follow up</title>
-  <meta name="description" content="Plugd scans business cards, QR badges and NFC cards into a lead list. Tag hot leads, add a voice note, export to Excel, CSV or Contacts. No account needed." />
+  <title>Plugd: Free AI Business Card Scanner &amp; Trade Show Lead Capture App</title>
+  <meta name="description" content="Free AI business card scanner for Android. Scan paper cards, QR badges and NFC cards at trade shows, add voice notes, tag hot leads and export to Excel, CSV or your CRM. No account, data stays on your phone." />
+  <meta name="keywords" content="business card scanner, business card scanner app android, AI business card scanner, trade show lead capture app, badge scanner app, scan business cards to excel, business card to CRM, NFC business card reader, free business card scanner no account" />
   <meta name="theme-color" content="#0b0b0d" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://plugd.repliantai.com/" />
+  <link rel="alternate" type="text/plain" title="LLM summary" href="https://plugd.repliantai.com/llms.txt" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Plugd: Scan. Saved. Sorted." />
-  <meta property="og:description" content="The business card scanner for people who actually follow up." />
+  <meta property="og:site_name" content="Plugd" />
+  <meta property="og:url" content="https://plugd.repliantai.com/" />
+  <meta property="og:title" content="Plugd: Free AI Business Card Scanner for Trade Shows" />
+  <meta property="og:description" content="Scan cards, QR badges and NFC at events, add a voice note, tag hot leads and export to Excel or your CRM. No account needed." />
   <meta property="og:image" content="https://plugd.repliantai.com/img/og.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Plugd: Free AI Business Card Scanner for Trade Shows" />
+  <meta name="twitter:description" content="Scan cards, QR badges and NFC at events, tag hot leads, export to Excel or your CRM. No account." />
+  <meta name="twitter:image" content="https://plugd.repliantai.com/img/og.png" />
+  <meta name="google-play-app" content="app-id=com.cardscanner.plugd" />
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="img/icon-180.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,11 +31,160 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MobileApplication",
-    "name": "Plugd: Business Card Scanner",
-    "operatingSystem": "iOS, Android",
-    "applicationCategory": "BusinessApplication",
-    "description": "Scan business cards, QR badges and NFC cards into a lead list. Tag leads hot, warm or cold, add voice notes, and export to Excel, CSV or Contacts."
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://plugd.repliantai.com/#org",
+        "name": "RepliantAI",
+        "url": "https://repliantai.com/",
+        "email": "vidya@repliantai.com",
+        "logo": "https://plugd.repliantai.com/img/icon-180.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://plugd.repliantai.com/#website",
+        "name": "Plugd",
+        "url": "https://plugd.repliantai.com/",
+        "publisher": { "@id": "https://plugd.repliantai.com/#org" }
+      },
+      {
+        "@type": ["MobileApplication", "SoftwareApplication"],
+        "@id": "https://plugd.repliantai.com/#app",
+        "name": "Plugd: Business Card Scanner",
+        "alternateName": "Plugd",
+        "url": "https://plugd.repliantai.com/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.cardscanner.plugd",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.cardscanner.plugd",
+        "image": "https://plugd.repliantai.com/img/og.png",
+        "screenshot": [
+          "https://plugd.repliantai.com/img/phone-1.png",
+          "https://plugd.repliantai.com/img/phone-3.png",
+          "https://plugd.repliantai.com/img/phone-5.png"
+        ],
+        "operatingSystem": "Android 7.0 or later",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Business card scanner, Lead capture",
+        "description": "Plugd is a free AI business card scanner and trade show lead capture app. It scans paper business cards, QR codes on event badges and NFC cards, reads the contact details with AI, records a voice note per contact, tags leads hot, warm or cold, organises them by event, and exports to Excel (.xlsx), CSV for CRM import (HubSpot, Salesforce, Zoho) or vCard. No account is needed and data is stored on the phone.",
+        "featureList": [
+          "Hands-free business card scanning, front and back",
+          "QR code badge scanning",
+          "NFC business card reading",
+          "AI extraction of name, title, company, phone, email, website, LinkedIn and address",
+          "Voice notes transcribed into each contact",
+          "Hot, warm and cold lead tagging",
+          "One lead list per event with duplicate detection",
+          "Export to Excel, CSV and vCard",
+          "No account; data stored on device",
+          "Bring your own AI key: Google Gemini, OpenAI, Anthropic Claude or OpenRouter"
+        ],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "publisher": { "@id": "https://plugd.repliantai.com/#org" }
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to scan business cards at a trade show and export them to Excel or a CRM",
+        "tool": { "@type": "HowToTool", "name": "Plugd app for Android" },
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Show the card", "text": "Open Plugd and hold the business card up to the camera. It captures the front, then asks for the back. Switch to QR for event badges or NFC for tap cards." },
+          { "@type": "HowToStep", "position": 2, "name": "Say a note", "text": "Speak while the card saves, for example 'Wants a demo in March'. The note is transcribed into the contact." },
+          { "@type": "HowToStep", "position": 3, "name": "Tag and export", "text": "Tag the lead hot, warm or cold, then export the event to Excel, a CSV for your CRM, or your phone's contacts." }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://plugd.repliantai.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Plugd free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Plugd is free to download and use, with no scan limits and no subscription. Card reading uses an AI provider you choose with your own API key; Google Gemini and OpenRouter offer free tiers, and any usage charges are between you and that provider."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to create an account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Open the app and scan. There is no Plugd account and nothing to log in to."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best free business card scanner for trade shows?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you exhibit at events, look for a scanner that handles paper cards, badge QR codes and NFC, lets you qualify leads on the spot and exports to your CRM. Plugd does all of that for free, with no account, and keeps every lead on your phone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Plugd read the cards?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plugd sends the card photos to an AI model from the provider you choose in Settings (Google Gemini, OpenAI, Anthropic Claude or OpenRouter), using an API key you add. The model reads the name, title, company, phone, email, website, LinkedIn and address, and Plugd fills in the contact. Because it uses modern AI models, it reads cards in many languages and layouts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it work with QR codes, event badges and NFC cards?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Switch to QR to scan a code on a conference badge or a digital business card, or to NFC to tap a card or tag to your phone (NFC needs a phone that supports it)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I scan business cards to Excel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Export any event, or a filtered slice such as only hot leads, to an Excel .xlsx file with one row per contact, including your tag and voice note."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get my leads into my CRM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Export an event as a CSV and import it into HubSpot, Salesforce, Zoho, Pipedrive or any CRM that accepts spreadsheets. You can also save contacts straight to your phone's address book as a .vcf."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it work offline at the venue?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scanning, notes and saving work without a connection. Cards are read by AI once you're back online, so poor venue Wi-Fi won't lose a lead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is my data stored?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On your phone. Plugd doesn't run a cloud service for your contacts. If you delete the app, its data is deleted with it, so export anything you want to keep first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Plugd on iPhone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plugd is available now on Android (7.0 or later) from Google Play. The iPhone version is coming soon to the App Store."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if a card is read wrong?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tap the contact to fix any field, or choose Read again. Cards that couldn't be read are flagged under \"to fix\" on Home, and your photos and notes are always kept."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -38,7 +197,8 @@
       <nav class="site-nav" aria-label="Main">
         <a href="#how">How it works</a>
         <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#compare">Compare</a>
         <a href="#faq">FAQ</a>
       </nav>
       <a class="btn btn-volt" href="#download">Get the app</a>
@@ -49,9 +209,9 @@
     <section class="hero">
       <div class="wrap">
         <div>
-          <p class="eyebrow">Business card scanner</p>
+          <p class="eyebrow">Free AI business card scanner</p>
           <h1 class="display">Scan.<br />Saved.<br />Sorted<em>.</em></h1>
-          <p class="lead">Plugd turns every card, QR badge and NFC tap from an event into a <b>lead list you can act on</b>: names read for you, hot leads flagged, one tap to your CRM.</p>
+          <p class="lead">Plugd is a <b>business card scanner and trade show lead capture app</b>. It turns every card, QR badge and NFC tap from an event into a lead list you can act on: names read by AI, hot leads flagged, exported to Excel or your CRM.</p>
           <div class="stores" id="download">
             <span class="store soon" data-store="ios" aria-disabled="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3" /><path d="M11 18h2" /></svg>
@@ -63,7 +223,7 @@
             </a>
           </div>
           <ul class="reassure">
-            <li>No account, no sign-up</li>
+            <li>Free, no account, no sign-up</li>
             <li>Contacts stay on your phone</li>
             <li>Exports to Excel, CSV, vCard</li>
           </ul>
@@ -153,6 +313,47 @@
       </div>
     </section>
 
+    <section class="section" id="use-cases" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Use cases</p>
+          <h2 class="h2">One scanner for every way people share details<em>.</em></h2>
+          <p class="lead">Exhibitors, sales teams, founders and recruiters use Plugd to capture leads at conferences, expos, meetups and client visits.</p>
+        </div>
+        <div class="uses">
+          <a href="trade-show-lead-capture.html"><strong>Trade show lead capture</strong><span>A free lead retrieval app for exhibitors: scan, qualify hot, warm or cold, and follow up the same day.</span></a>
+          <a href="scan-business-cards-to-excel.html"><strong>Scan business cards to Excel</strong><span>Turn a stack of cards into an .xlsx or CRM-ready CSV for HubSpot, Salesforce or Zoho.</span></a>
+          <a href="trade-show-lead-capture.html#badges"><strong>Event badge &amp; QR scanner</strong><span>Scan the QR code on a conference badge or a digital business card (vCard, MeCard, links).</span></a>
+          <a href="trade-show-lead-capture.html#nfc"><strong>NFC business card reader</strong><span>Tap an NFC card or tag to the back of your Android phone and the contact is saved.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compare" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Compare</p>
+          <h2 class="h2">Plugd vs typical card scanner apps<em>.</em></h2>
+          <p class="lead">Most scanner apps want an account, a subscription and a copy of your contacts in their cloud. Plugd doesn't.</p>
+        </div>
+        <div class="compare-wrap">
+          <table class="compare">
+            <thead><tr><th scope="col"></th><th scope="col">Plugd</th><th scope="col">Typical scanner apps</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Price</th><td class="yes">Free, no scan limits</td><td>Free tier, then a monthly plan</td></tr>
+              <tr><th scope="row">Account</th><td class="yes">None needed</td><td>Sign-up required</td></tr>
+              <tr><th scope="row">Where contacts live</th><td class="yes">On your phone</td><td>Vendor cloud</td></tr>
+              <tr><th scope="row">Paper, QR badge and NFC</th><td class="yes">All three in one list</td><td>Often paper only</td></tr>
+              <tr><th scope="row">Voice note per lead</th><td class="yes">Yes, transcribed</td><td>Rare</td></tr>
+              <tr><th scope="row">Organised by event</th><td class="yes">Yes, with hot/warm/cold tags</td><td>One big contact list</td></tr>
+              <tr><th scope="row">Export</th><td class="yes">Excel, CSV, vCard</td><td>Often paid plans only</td></tr>
+              <tr><th scope="row">AI model</th><td class="yes">Your choice: Gemini, OpenAI, Claude, OpenRouter</td><td>Vendor's own OCR</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="privacy" style="padding-top:0">
       <div class="wrap">
         <div class="promise">
@@ -178,11 +379,16 @@
           <h2 class="h2">Good questions<em>.</em></h2>
         </div>
         <div class="faq">
+          <details><summary>Is Plugd free?</summary><p>Yes. Plugd is free to download and use, with no scan limits and no subscription. Card reading uses an AI provider you choose with your own API key; Google Gemini and OpenRouter offer free tiers, and any usage charges are between you and that provider.</p></details>
           <details><summary>Do I need to create an account?</summary><p>No. Open the app and scan. There is no Plugd account and nothing to log in to.</p></details>
-          <details><summary>How does Plugd read the cards?</summary><p>Plugd sends the card photos to an AI model from the provider you choose in Settings (Google Gemini, OpenAI, Anthropic Claude or OpenRouter), using an API key you add. The provider reads the text and Plugd fills in the contact. Some providers offer a free tier; any usage charges are between you and that provider.</p></details>
-          <details><summary>Does it work with QR codes and NFC cards?</summary><p>Yes. Switch to QR to scan a code on a badge or digital business card, or to NFC to tap a card or tag to your phone (NFC needs a phone that supports it).</p></details>
+          <details><summary>What is the best free business card scanner for trade shows?</summary><p>If you exhibit at events, look for a scanner that handles paper cards, badge QR codes and NFC, lets you qualify leads on the spot and exports to your CRM. Plugd does all of that for free, with no account, and keeps every lead on your phone.</p></details>
+          <details><summary>How does Plugd read the cards?</summary><p>Plugd sends the card photos to an AI model from the provider you choose in Settings (Google Gemini, OpenAI, Anthropic Claude or OpenRouter), using an API key you add. The model reads the name, title, company, phone, email, website, LinkedIn and address, and Plugd fills in the contact. Because it uses modern AI models, it reads cards in many languages and layouts.</p></details>
+          <details><summary>Does it work with QR codes, event badges and NFC cards?</summary><p>Yes. Switch to QR to scan a code on a conference badge or a digital business card, or to NFC to tap a card or tag to your phone (NFC needs a phone that supports it).</p></details>
+          <details><summary>Can I scan business cards to Excel?</summary><p>Yes. Export any event, or a filtered slice such as only hot leads, to an Excel .xlsx file with one row per contact, including your tag and voice note.</p></details>
+          <details><summary>Can I get my leads into my CRM?</summary><p>Export an event as a CSV and import it into HubSpot, Salesforce, Zoho, Pipedrive or any CRM that accepts spreadsheets. You can also save contacts straight to your phone's address book as a .vcf.</p></details>
+          <details><summary>Does it work offline at the venue?</summary><p>Scanning, notes and saving work without a connection. Cards are read by AI once you're back online, so poor venue Wi-Fi won't lose a lead.</p></details>
           <details><summary>Where is my data stored?</summary><p>On your phone. Plugd doesn't run a cloud service for your contacts. If you delete the app, its data is deleted with it, so export anything you want to keep first.</p></details>
-          <details><summary>Can I get my leads into my CRM?</summary><p>Export an event as a CSV and import it into your CRM, or use Excel (.xlsx). You can also save contacts straight to your phone's address book as a .vcf.</p></details>
+          <details><summary>Is Plugd on iPhone?</summary><p>Plugd is available now on Android (7.0 or later) from Google Play. The iPhone version is coming soon to the App Store.</p></details>
           <details><summary>What if a card is read wrong?</summary><p>Tap the contact to fix any field, or choose Read again. Cards that couldn't be read are flagged under "to fix" on Home, and your photos and notes are always kept.</p></details>
         </div>
       </div>
@@ -211,6 +417,8 @@
     <div class="wrap">
       <a class="brand" href="./" aria-label="Plugd home"><img src="img/icon.svg" alt="" />plug<b>d</b></a>
       <nav aria-label="Legal and support">
+        <a href="trade-show-lead-capture.html">Trade show leads</a>
+        <a href="scan-business-cards-to-excel.html">Cards to Excel</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
@@ -219,5 +427,23 @@
       <span>© 2026 RepliantAI</span>
     </div>
   </footer>
+
+  <div class="mobile-bar" id="mobile-bar" aria-hidden="true">
+    <img src="img/icon.svg" alt="" />
+    <span><b>Plugd</b>Free on Android</span>
+    <a class="btn btn-volt" href="https://play.google.com/store/apps/details?id=com.cardscanner.plugd" tabindex="-1">Get it on Play</a>
+  </div>
+  <script>
+    (function () {
+      var bar = document.getElementById('mobile-bar');
+      var hero = document.getElementById('download');
+      var cta = document.querySelector('.cta');
+      if (!bar || !hero || !('IntersectionObserver' in window)) return;
+      var seen = { hero: true, cta: false };
+      var update = function () { bar.classList.toggle('show', !seen.hero && !seen.cta); };
+      new IntersectionObserver(function (es) { es.forEach(function (e) { seen[e.target === hero ? 'hero' : 'cta'] = e.isIntersecting; }); update(); }).observe(hero);
+      new IntersectionObserver(function (es) { es.forEach(function (e) { seen.cta = e.isIntersecting; }); update(); }).observe(cta);
+    })();
+  </script>
 </body>
 </html>
